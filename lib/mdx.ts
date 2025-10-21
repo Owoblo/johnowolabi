@@ -206,7 +206,7 @@ const littleWorldEntries = [
     slug: 'sample-song',
     title: 'Midnight City',
     date: '2024-01-20',
-    type: 'song',
+    type: 'song' as const,
     link: 'https://open.spotify.com/track/1eyzqe2Q0GykYtPrbDpcfB',
     caption: 'M83\'s atmospheric masterpiece that captures the feeling of driving through a neon-lit city at night.',
     content: `# Midnight City
@@ -217,7 +217,7 @@ A song that perfectly captures the feeling of urban solitude and the beauty foun
     slug: 'sample-video',
     title: 'The Art of Looking Sideways',
     date: '2024-01-18',
-    type: 'video',
+    type: 'video' as const,
     link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
     caption: 'A thoughtful exploration of how we perceive and interact with the world around us.',
     content: `# The Art of Looking Sideways
@@ -228,7 +228,7 @@ Sometimes the most profound insights come from changing our perspective, even ju
     slug: 'sample-object',
     title: 'Vintage Typewriter',
     date: '2024-01-15',
-    type: 'object',
+    type: 'object' as const,
     image: '/images/little-world/typewriter.jpg',
     caption: 'A 1960s Olivetti Lettera 32 that I found at a flea market. There\'s something magical about the tactile feedback of mechanical keys.',
     content: `# Vintage Typewriter
@@ -239,7 +239,7 @@ The satisfying click-clack of mechanical keys and the physical act of putting wo
     slug: 'sample-quote',
     title: 'On Simplicity',
     date: '2024-01-12',
-    type: 'quote',
+    type: 'quote' as const,
     caption: 'A reminder that the most profound truths are often the simplest to express.',
     content: `# On Simplicity
 
@@ -251,7 +251,7 @@ Sometimes the most powerful ideas are the ones that can be expressed in the fewe
     slug: 'bookstore-moment',
     title: 'Bookstore Sanctuary',
     date: '2024-01-25',
-    type: 'object',
+    type: 'object' as const,
     image: '/images/little-world/bookstore-moment.jpg',
     caption: 'A quiet moment of contemplation in a well-stocked bookstore. There\'s something magical about these spaces where thousands of stories wait patiently on shelves.',
     content: `# Bookstore Sanctuary

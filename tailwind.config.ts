@@ -78,7 +78,7 @@ const config: Config = {
   plugins: [
     require('@tailwindcss/typography'),
     // Custom prose theme for muted, readable content
-    function({ addUtilities }) {
+    function({ addUtilities }: { addUtilities: any }) {
       addUtilities({
         '.prose-muted': {
           'max-width': '70ch',
